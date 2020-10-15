@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4020.14">
+  <Task Name="VLSSerial" Id="{8da43019-1301-497b-92f5-9b532f55c984}">
+    <!--CycleTime in micro seconds.-->
+    <CycleTime>10000</CycleTime>
+    <Priority>1</Priority>
+    <PouCall>
+      <Name>PRG_SERIAL_COM</Name>
+    </PouCall>
+    <TaskFBGuid>{87912c33-a7ff-481a-a860-78f5f924ed67}</TaskFBGuid>
+    <Fb_init>{ae675f44-b536-489e-9f5f-f799eacc0d64}</Fb_init>
+    <Fb_exit>{6b6a8c7c-510c-4613-80f5-0d51f76d6742}</Fb_exit>
+    <CycleUpdate>{b0dd7b5c-c9d9-4669-88a6-50ccec0ed0b3}</CycleUpdate>
+    <PostCycleUpdate>{b62e21cb-40bb-4262-9f10-bbda2796057e}</PostCycleUpdate>
+  </Task>
+</TcPlcObject>

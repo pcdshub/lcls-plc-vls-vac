@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# TcXaeShell Solution File, Format Version 11.00
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "lcls-plc-vls-vac", "lcls-plc-vls-vac.tsproj", "{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|TwinCAT CE7 (ARMV7) = Debug|TwinCAT CE7 (ARMV7)
+		Debug|TwinCAT OS (ARMT2) = Debug|TwinCAT OS (ARMT2)
+		Debug|TwinCAT RT (x64) = Debug|TwinCAT RT (x64)
+		Debug|TwinCAT RT (x86) = Debug|TwinCAT RT (x86)
+		Release|TwinCAT CE7 (ARMV7) = Release|TwinCAT CE7 (ARMV7)
+		Release|TwinCAT OS (ARMT2) = Release|TwinCAT OS (ARMT2)
+		Release|TwinCAT RT (x64) = Release|TwinCAT RT (x64)
+		Release|TwinCAT RT (x86) = Release|TwinCAT RT (x86)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|TwinCAT CE7 (ARMV7)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT CE7 (ARMV7).Build.0 = Debug|TwinCAT CE7 (ARMV7)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT OS (ARMT2).ActiveCfg = Debug|TwinCAT RT (x86)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT RT (x64).ActiveCfg = Debug|TwinCAT RT (x64)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT RT (x64).Build.0 = Debug|TwinCAT RT (x64)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT RT (x86).ActiveCfg = Debug|TwinCAT RT (x86)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Debug|TwinCAT RT (x86).Build.0 = Debug|TwinCAT RT (x86)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT CE7 (ARMV7).ActiveCfg = Release|TwinCAT CE7 (ARMV7)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT CE7 (ARMV7).Build.0 = Release|TwinCAT CE7 (ARMV7)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT OS (ARMT2).ActiveCfg = Release|TwinCAT RT (x86)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT RT (x64).ActiveCfg = Release|TwinCAT RT (x64)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT RT (x64).Build.0 = Release|TwinCAT RT (x64)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT RT (x86).ActiveCfg = Release|TwinCAT RT (x86)
+		{165B1A2E-F3CB-4DCA-B0E2-9A2795CA430E}.Release|TwinCAT RT (x86).Build.0 = Release|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT CE7 (ARMV7).ActiveCfg = Debug|TwinCAT CE7 (ARMV7)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT CE7 (ARMV7).Build.0 = Debug|TwinCAT CE7 (ARMV7)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT OS (ARMT2).ActiveCfg = Debug|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT RT (x64).ActiveCfg = Debug|TwinCAT RT (x64)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT RT (x64).Build.0 = Debug|TwinCAT RT (x64)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT RT (x86).ActiveCfg = Debug|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Debug|TwinCAT RT (x86).Build.0 = Debug|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT CE7 (ARMV7).ActiveCfg = Release|TwinCAT CE7 (ARMV7)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT CE7 (ARMV7).Build.0 = Release|TwinCAT CE7 (ARMV7)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT OS (ARMT2).ActiveCfg = Release|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT RT (x64).ActiveCfg = Release|TwinCAT RT (x64)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT RT (x64).Build.0 = Release|TwinCAT RT (x64)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT RT (x86).ActiveCfg = Release|TwinCAT RT (x86)
+		{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}.Release|TwinCAT RT (x86).Build.0 = Release|TwinCAT RT (x86)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D8DD776-2922-4E5C-A278-3BFC3265C7E6}
+	EndGlobalSection
+EndGlobal

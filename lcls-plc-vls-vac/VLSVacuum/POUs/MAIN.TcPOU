@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.2">
+  <POU Name="MAIN" Id="{17e1a7f8-0f0e-4430-9e7a-0ad1f9ee68e0}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	// Variable for VLS upstream pressure bit
+	{attribute 'pytmc' := '
+	pv: EXT_PRESS_OK ;
+	field: ZNAM NOT OK ;
+	field: ONAM OK ;
+	io: i ;
+	'}
+	bVLS_Press_OK : BOOL := FALSE; // TRUE : OK to open gate valve, FALSE : not OK to open gate valve
+	
+	stPTM : ST_PfeifferControl;
+	fbPTM : FB_PTM_Pfeiffer;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[(* Example main program to show how to incorporate the VLS vacuum program *)
+
+bVLS_Press_OK := TRUE; // replace with logic for this bit, e.g. TC at vac
+
+PRG_VLS_WINDOW(bExtPress := bVLS_Press_OK); // run the vacuum program with our interlock bit
+
+]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="15" Count="0" />
+      <LineId Id="24" Count="0" />
+      <LineId Id="16" Count="0" />
+      <LineId Id="25" Count="0" />
+      <LineId Id="42" Count="0" />
+      <LineId Id="22" Count="0" />
+      <LineId Id="2" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

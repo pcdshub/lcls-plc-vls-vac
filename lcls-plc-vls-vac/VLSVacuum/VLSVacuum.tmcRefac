@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Refactors>
+  <Renames>
+    <RenamedType>
+      <Type guid="06bf4e71-7665-4602-9a1f-3fc3cd0692b8">PRG_VLS</Type>
+      <From>PRG_VLS</From>
+      <To>PRG_VLS_VAC</To>
+    </RenamedType>
+  </Renames>
+</Refactors>

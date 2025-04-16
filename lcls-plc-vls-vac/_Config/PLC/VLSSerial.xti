@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmItem" TcSmVersion="1.0" TcVersion="3.1.4020.56" ClassName="CNestedPlcProjDef">
+	<Project GUID="{EA69EEFE-32EE-422A-A769-5BAB5D4DAFC8}" Name="VLSSerial" PrjFilePath="..\..\VLSSerial\VLSSerial.plcproj" TmcFilePath="..\..\VLSSerial\VLSSerial.tmc" ReloadTmc="true" AmsPort="852" FileArchiveSettings="#x000e">
+		<Instance Id="#x01010010" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
+			<Name>VLSSerial Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<TaskPouOids>
+				<TaskPouOid Prio="20" OTCID="#x01010011"/>
+			</TaskPouOids>
+		</Instance>
+	</Project>
+</TcSmItem>

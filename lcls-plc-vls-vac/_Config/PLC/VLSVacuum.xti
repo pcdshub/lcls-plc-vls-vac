@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmItem" TcSmVersion="1.0" TcVersion="3.1.4020.56" ClassName="CNestedPlcProjDef">
+	<Project GUID="{A4F27F0E-EFF8-415C-9F6C-288DCE84C426}" Name="VLSVacuum" PrjFilePath="..\..\VLSVacuum\VLSVacuum.plcproj" TmcFilePath="..\..\VLSVacuum\VLSVacuum.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
+			<Name>VLSVacuum Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<TaskPouOids>
+				<TaskPouOid Prio="21" OTCID="#x08502002"/>
+				<TaskPouOid Prio="1" OTCID="#x08502003"/>
+				<TaskPouOid Prio="20" OTCID="#x08502001"/>
+			</TaskPouOids>
+		</Instance>
+	</Project>
+</TcSmItem>

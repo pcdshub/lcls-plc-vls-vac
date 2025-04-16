@@ -1,0 +1,44 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FileVersion>1.0.0.0</FileVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ea69eefe-32ee-422a-a769-5bab5d4dafc8}</ProjectGuid>
+    <SubObjectsSortedByName>True</SubObjectsSortedByName>
+    <Name>VLSSerial</Name>
+    <ProgramVersion>3.1.4020.5</ProgramVersion>
+    <Application>{392929b1-a5d4-47fe-94c5-b6e5fde9936a}</Application>
+    <TypeSystem>{a413f194-8c44-4041-820f-28b86aeba52f}</TypeSystem>
+    <Implicit_Task_Info>{24b9e5c6-6a74-4640-948a-7b4ac3be1560}</Implicit_Task_Info>
+    <Implicit_KindOfTask>{b381ea2c-7944-4fc4-a30d-edd967deaef3}</Implicit_KindOfTask>
+    <Implicit_Jitter_Distribution>{63efa468-60c4-4ad3-8af0-74323b692529}</Implicit_Jitter_Distribution>
+    <LibraryReferences>{208d695d-fb94-4290-9c65-5fc5ab357a77}</LibraryReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PlcTask.TcTTO">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\MAIN.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DUTs" />
+    <Folder Include="GVLs" />
+    <Folder Include="VISUs" />
+    <Folder Include="POUs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PlaceholderReference Include="Tc2_Standard">
+      <DefaultResolution>Tc2_Standard, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_Standard</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc2_System">
+      <DefaultResolution>Tc2_System, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc2_System</Namespace>
+    </PlaceholderReference>
+    <PlaceholderReference Include="Tc3_Module">
+      <DefaultResolution>Tc3_Module, * (Beckhoff Automation GmbH)</DefaultResolution>
+      <Namespace>Tc3_Module</Namespace>
+    </PlaceholderReference>
+  </ItemGroup>
+</Project>
